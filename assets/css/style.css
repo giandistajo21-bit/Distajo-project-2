@@ -131,6 +131,12 @@ a { color: inherit; text-decoration: none; }
 .college-heading:first-of-type { margin-top: 20px; }
 .college-heading h2 { margin: 0 0 6px; color: var(--navy); font-family: "Libre Baskerville", serif; }
 .college-heading p { margin: 0; color: var(--muted); }
+.strand-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
+.strand-card { border: 1px solid var(--border); background: var(--white); padding: 28px; }
+.strand-card h3 { margin: 4px 0 8px; color: var(--navy); }
+.strand-card h4 { margin: 22px 0 8px; color: var(--navy); }
+.strand-card ul { margin: 0; padding-left: 20px; color: var(--muted); }
+.strand-card p { color: var(--muted); }
 
 .stats { background: var(--navy); color: var(--white); }
 .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); text-align: center; }
@@ -208,6 +214,7 @@ a { color: inherit; text-decoration: none; }
   .story-badge { right: 15px; }
   .stats-grid { grid-template-columns: 1fr 1fr; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
+  .strand-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 580px) {
